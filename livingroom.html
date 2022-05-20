@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Author: Anisha Kaushik -->
+	<meta charset="utf-8">
+	<title>Living Room</title>
+	<style>
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		header {
+		  text-align: center;
+		}
+
+		header h2 {
+ 			color: #37639A;
+		}
+
+		header nav ul{
+		  padding-left: 0px;
+		}
+
+		header nav ul li {
+		  display: inline;
+		  padding: 5px;
+		}
+
+		h3 {
+		  background-color: #ADD9E6;
+		  color: #336A93;
+		  padding: 10px;
+		}
+
+		p {
+		  text-align: center;
+		}
+
+		.details {
+		  text-align: center;
+		}
+
+		table.aptservices, table.aptservices th, table.aptservices td {
+		  border-collapse: collapse;
+		  border: solid black 1px;
+		}
+
+		.grey {
+		  background-color: #CCCCCC;
+		  vertical-align: top;
+		  text-align: left;
+		}
+
+		tbody tr {
+		  text-align: left;
+		}
+
+		tbody tr td {
+		  text-align: left;
+		  padding: 5px;
+		}
+
+		caption {
+		  caption-side: bottom;
+		  text-align: left;
+		  background-color: #FFFFCB;
+		  border-right: black solid 1px;
+		  border-bottom: black solid 1px;
+		  border-left: black solid 1px;
+		  padding: 5px;
+		}
+
+		footer p {
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h2>Anisha's apartment</h2>
+		<p>Click a room for detailed view</p>
+		<p><img src="images/apartmentfloorplan.jpg" alt="Floor Plan" usemap="#apartmentmap"></p>
+
+		<nav>
+			<ul>
+				<li><a href="apartment.html">Apartment</a></li>
+				<li><a href="bedroom.html">Bedroom 1</a></li>
+				<li><a href="bedroom.html">Bedroom 2</a></li>
+				<li><a href="diningroom.html">Dining Room</a></li>
+				<li><a href="kitchen.html">Kitchen</a></li>
+				<li><a href="livingroom.html">Living Room</a></li>
+			</ul>
+		</nav>
+
+		<map name="apartmentmap">
+			<area shape="rect" coords="51,1,189,157" href="bedroom.html" alt="Bedroom" title="Bedroom">
+			<area shape="rect" coords="204,9,354,155" href="bedroom.html" alt="Bedroom" title="Bedroom">
+			<area shape="circle" coords="412,137,50" href="diningroom.html" alt="Dining Room" title="Dining Room">
+			<area shape="rect" coords="243,234,390,394" href="kitchen.html" alt="Kitchen" title="Kicthen">
+			<area shape="poly" coords="521,175,546,390,423,393,397,203" href="livingroom.html" alt="Living Room" title="Living Room">
+			<area shape="default" href="apartment.html" alt="Apartment" title="Apartment">
+		</map>
+	</header>
+		<h3 class="details">Living Room Details</h3>
+		<p><img class="livingroomimage" src="images/livingroom_lg.jpg" alt="Living Room Image"></p>
+
+		<h3>Apartment Services</h3>
+			<table class="aptservices">
+				<caption>Please do not allow people you do not know to use these facilities.</caption>
+				<thead>
+					<tr class="grey">
+						<th>Services</th>
+						<th>Day/Hours</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<th>Gym</th>
+						<td rowspan="2">Monday-Friday 6am - 10pm <br>
+							Saturday 8am - 8pm <br>
+							Sunday 8am - 5pm <br></td>
+					</tr>
+					<tr>
+						<th>Pool</th>
+					</tr>
+					<tr>
+						<th>Laundry</th>
+						<td>24/7</td>
+					</tr>
+				</tbody>
+			</table>
+	<footer>
+		<p>For more information contact : <a href="mailto:apartment@example.com">anishakapartment@example.comm</a></p>
+		<p>&copy; Anisha K 2020</p>
+	</footer>
+</body>
+</html>

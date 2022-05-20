@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Author: Anisha Kaushik, 000747720 -->
+	<title>Anisha's apartment</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="apartment_layout.css">
+	<link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+	<header>
+		<h2>Anisha's apartment</h2>
+		<p>Click a room for detailed view</p>
+		<img src="images/apartmentfloorplan.jpg" alt="Floor Plan" usemap="#apartmentmap">
+
+		<nav>
+			<ul>
+				<li><a href="apartment.html">Apartment</a></li>
+				<li><a href="bedroom.html">Bedroom 1</a></li>
+				<li><a href="bedroom.html">Bedroom 2</a></li>
+				<li><a href="diningroom.html">Dining Room</a></li>
+				<li><a href="kitchen.html">Kitchen</a></li>
+				<li><a href="livingroom.html">Living Room</a></li>
+			</ul>
+		</nav>
+
+		<map name="apartmentmap">
+			<area shape="rect" coords="51,1,189,157" href="bedroom.html" alt="Bedroom" title="Bedroom">
+			<area shape="rect" coords="204,9,354,155" href="bedroom.html" alt="Bedroom" title="Bedroom">
+			<area shape="circle" coords="412,137,50" href="diningroom.html" alt="Dining Room" title="Dining Room">
+			<area shape="rect" coords="243,234,390,394" href="kitchen.html" alt="Kitchen" title="Kicthen">
+			<area shape="poly" coords="521,175,546,390,423,393,397,203" href="livingroom.html" alt="Living Room" title="Living Room">
+			<area shape="default" href="apartment.html" alt="Apartment" title="Apartment">
+		</map>
+	</header>
+
+	<div class="details">
+		<div class="survey">
+			<h3>Survey</h3>
+				<p>How did you find out about this apartment? Check any that apply: </p>	
+				<form>
+					<input type="checkbox" name="websearch" id="web">
+					<label for="web">Web Search</label>
+
+					<input type="checkbox" name="fromfriend" id="friend">
+					<label for="friend">Friend</label>
+
+					<input type="checkbox" name="news" id="newspaper">
+					<label for="newspaper">Newspaper</label>
+					<br>
+
+				<input type="submit" value="Submit" class="button">
+				<input type="reset" value="Reset Form" class="button">
+				</form>
+
+				<div class="message">
+					<h3>Welcome Message</h3>
+					<audio controls autoplay id="audio">
+						<source src="audio/apartment.mp3" type="audio/mpeg">
+						<source src="audio/apartment.mp3" type="audio/ogg">
+					</audio>
+						<p>Transcript: Hello. Welcome to our apartment. You'll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+				</div>
+		</div>
+
+		<div class="apartmentservices">
+			<h3>Apartment Services</h3>
+				<table class="aptservices">
+					<caption>Please do not allow people you do not know to use these facilities.</caption>
+					<thead>
+						<tr class="grey">
+							<th>Services</th>
+							<th>Day/Hours</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<th>Gym</th>
+							<td rowspan="2">Monday-Friday 6am - 10pm <br>
+								Saturday 8am - 8pm <br>
+								Sunday 8am - 5pm <br></td>
+						</tr>
+						<tr>
+							<th>Pool</th>
+						</tr>
+						<tr>
+							<th>Laundry</th>
+							<td>24/7</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+
+		<div class="location">
+			<h3>Location</h3> 
+			<p><img src="images/location.png" alt="location"></p>
+		</div>
+	</div>
+
+	<div>
+		<h3>Gallery</h3>
+		<div class="container">
+			<div class="item">
+				<h4>Balcony</h4>
+				<figure>
+					<img src="thumbnails/balcony_sm.jpg" alt="Balcony">
+				</figure>
+			</div>
+
+			<div class="item">
+				<h4>Bathroom</h4>
+				<figure>
+					<img src="thumbnails/bathroom_sm.jpg" alt="Bathroom">
+				</figure>
+			</div>
+
+			<div class="item">
+				<h4>Bedroom</h4>
+				<figure>
+					<img src="thumbnails/bedroom_sm.jpg" alt="Bedroom">
+				</figure>
+			</div>
+
+			<div class="item">
+				<h4>Dining Room</h4>
+				<figure>
+					<img src="thumbnails/diningroom_sm.jpg" alt="Dining">
+				</figure>
+			</div>
+
+			<div class="item">
+				<h4>Kitchen</h4>
+				<figure>
+					<img src="thumbnails/kitchen_sm.jpg" alt="Kitchen">
+				</figure>
+			</div>
+
+			<div class="item">
+				<h4>Living Room</h4>
+				<figure>
+					<img src="thumbnails/livingroom_sm.jpg" alt="Living">
+				</figure>
+			</div>
+		</div>	
+	</div>
+
+	<footer>
+		<p>For more information contact : <a href="mailto:apartment@example.com">anishakapartment@example.com</a></p>
+		<p>&copy; Anisha K 2020</p>
+	</footer>
+
+</body>
+</html>
