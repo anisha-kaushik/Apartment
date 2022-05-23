@@ -4,25 +4,13 @@
 </p>
   
 ## 📝 Table of Contents  
-- [About](#about)  
-- [Getting Started](#getting_started)  
-- [Deployment](#deployment)  
-- [Usage](#usage)  
+- [About](#about)    
 - [Built Using](#built_using)  
 - [Acknowledgments](#acknowledgement)  
 - [License](#license)  
   
-## 🏁 About <a name = "#getting_started"></a>  
-
-  
-## 🏁 Getting Started <a name = "#getting_started"></a>  
-
-  
-## 🚀 Deployment <a name = "deployment"></a>  
-Deployed on Vercel
-  
-## 🎈 Usage <a name="usage"></a>  
-
+## 🏁 About <a name = "#about"></a>  
+The Apartment Layout Viewer is an apartment advertisement made using HTML & CSS. The pages provide a detailed insight of each room into the apartment.
   
 ## ⛏️ Built Using <a name = "built_using"></a>  
 - HTML
