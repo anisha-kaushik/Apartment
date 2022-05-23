@@ -1,4 +1,4 @@
-<h2 align="center">Arpartment Viewer</h2> 
+<h2 align="center">Apartment Viewer</h2> 
 
 <p align="center"> 
 </p>
